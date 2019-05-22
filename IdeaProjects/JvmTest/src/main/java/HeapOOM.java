@@ -8,6 +8,7 @@ public class HeapOOM {
     static class OOMObject {
         void sayHello() {
             System.out.println("hello x");
+            System.out.println("edit in wins");
         }
     }
     public static void main(String[] args) {
