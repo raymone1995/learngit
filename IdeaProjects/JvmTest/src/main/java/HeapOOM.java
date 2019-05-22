@@ -6,7 +6,9 @@ import java.util.List;
  */
 public class HeapOOM {
     static class OOMObject {
-
+        void sayHello() {
+            System.out.println("hello x");
+        }
     }
     public static void main(String[] args) {
         List<OOMObject> list = new ArrayList<OOMObject>();
